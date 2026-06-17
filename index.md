@@ -10,7 +10,7 @@ FreeBike GPS is a bicycle navigation application built on a privacy-first princi
 - No data sent to our servers (we have none)
 - No advertising identifiers
 - No crash reporting to third parties
-- No location data leaves your device
+- Route tracking and navigation data are processed on-device. Location information is only transmitted when required for optional online services such as weather forecasts, map downloads, or online search.
 
 ## 3. Data Stored Locally On Your Device
 All data is stored **exclusively on your device** and never shared:
@@ -26,15 +26,15 @@ All data is stored **exclusively on your device** and never shared:
 You can delete all data at any time by uninstalling the app.
 
 ## 4. Third-Party Services
-The app communicates with the following open-source services. Only GPS coordinates, search queries, or map tile requests are sent — no personal information.
+The app communicates with the following open-source services. Only GPS coordinates, search queries, or map tile requests are sent — no personal information. Third-party services may receive technical network information such as your IP address as part of normal internet communication. FreeBike GPS does not collect, store, or process this information.
 
-| Service | Purpose | When used |
-|---------|---------|-----------|
-| OpenFreeMap | Map tile rendering | Always (online mode) |
-| Photon (Komoot) | Address search & geocoding | Online fallback only, when offline database has no results |
-| Overpass API | Points of interest | Online fallback only, when offline database has no results |
-| Open-Meteo | Weather forecast | When weather feature is active |
-| BRouter | Bicycle route calculation | Fully on-device, no data sent |
+| Service | Purpose | When used | Privacy Policy |
+|---------|---------|-----------|----------------|
+| OpenFreeMap | Map tile rendering | Always (online mode) | [openfreemap.org/privacy](https://openfreemap.org/privacy/) |
+| Photon (Komoot) | Address search & geocoding | Online fallback only | [komoot.com/privacy](https://www.komoot.com/privacy) |
+| Overpass API | Points of interest | Online fallback only | [wiki.osmfoundation.org/wiki/Privacy_Policy](https://wiki.osmfoundation.org/wiki/Privacy_Policy) |
+| Open-Meteo | Weather forecast | When weather is active | [open-meteo.com/en/terms](https://open-meteo.com/en/terms) |
+| BRouter | Bicycle route calculation | Fully on-device, no data sent | — |
 
 Route calculation is performed entirely on your device using BRouter — no routing server ever receives your start point, destination, or planned route.
 
@@ -46,10 +46,8 @@ Route calculation is performed entirely on your device using BRouter — no rout
 | `INTERNET` | Maps, address search, weather |
 | `WAKE_LOCK` | Keep screen on during navigation |
 
-Location data is processed on-device only and never transmitted to us.
-
 ## 6. GDPR (EU/EEA Users)
-As no personal data is collected or processed by us, GDPR obligations regarding data subject rights are not applicable — there is simply no data held about you.
+FreeBike GPS is subject to the General Data Protection Regulation (GDPR). Because the app does not collect, store, or process personal data on behalf of users, there is generally no personal data available for access, correction, export, or deletion requests. If you have any questions regarding your rights under GDPR, you can contact us at the address below.
 
 ## 7. Children's Privacy
 The app does not collect any data from any user, regardless of age.
