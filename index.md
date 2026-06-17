@@ -2,7 +2,7 @@
 **Last updated: June 17, 2026**
 
 ## 1. Introduction
-FreeBike GPS is a bicycle navigation application built on a privacy-first principle. We do not collect, store, or share any personal data.
+FreeBike GPS is a bicycle navigation application built on a privacy-first principle. FreeBike GPS does not collect or store personal data.
 
 ## 2. Data We Do NOT Collect
 - No account or registration required
