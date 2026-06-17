@@ -2,61 +2,81 @@
 **Last updated: June 17, 2026**
 
 ## 1. Introduction
-FreeBike GPS is a bicycle navigation application built on a privacy-first principle. FreeBike GPS does not collect or store personal data.
+FreeBike GPS is a bicycle navigation application designed with a privacy-first approach. FreeBike GPS does not collect or store personal data on its own systems.
+
+---
 
 ## 2. Data We Do NOT Collect
-- No account or registration required
-- No user tracking or analytics
-- No data sent to our servers (we have none)
-- No advertising identifiers
-- No crash reporting to third parties
-- Route tracking and navigation data are processed on-device. Location information is only transmitted when required for optional online services such as weather forecasts, map downloads, or online search.
+- No account or registration is required  
+- No user tracking or analytics are used  
+- No data is sent to our servers (we do not operate any servers)  
+- No advertising identifiers are used  
+- No third-party crash reporting services are integrated  
+- Route tracking and navigation data are processed on-device  
+
+Location information is transmitted only when required for optional online services, such as weather forecasts, map downloads, or online search.
+
+---
 
 ## 3. Data Stored Locally On Your Device
-All data is stored **exclusively on your device** and never shared:
+All data is stored exclusively on your device and is not shared with us or any third parties.
 
 | Data | Purpose |
 |------|---------|
 | Recorded routes | Activity history |
-| User profile (weight, age, gender, bike type) | Calorie calculation |
+| User profile (weight, age, gender, bike type) | Calorie estimation |
 | App settings and preferences | User experience |
-| Offline map tiles | Navigation without internet |
-| Offline address database | Address search without internet |
+| Offline map tiles | Offline navigation |
+| Offline address database | Offline address search |
 
-You can delete all data at any time by uninstalling the app.
+You may delete all locally stored data at any time by uninstalling the application or clearing its storage in Android settings.
+
+---
 
 ## 4. Third-Party Services
-The app communicates with the following open-source services. Only GPS coordinates, search queries, or map tile requests are sent — no personal information. Third-party services may receive technical network information such as your IP address as part of normal internet communication. FreeBike GPS does not collect, store, or process this information.
+The app communicates with the following open-source services. Only GPS coordinates, search queries, or map tile requests are transmitted to these services as part of normal functionality. No personal data is intentionally collected or stored by FreeBike GPS.
+
+Third-party services may receive technical information such as IP addresses as part of standard internet communication. This information is processed by these providers in accordance with their respective privacy policies.
 
 | Service | Purpose | When used | Privacy Policy |
 |---------|---------|-----------|----------------|
-| OpenFreeMap | Map tile rendering | Always (online mode) | [openfreemap.org/privacy](https://openfreemap.org/privacy/) |
-| Photon (Komoot) | Address search & geocoding | Online fallback only | [komoot.com/privacy](https://www.komoot.com/privacy) |
-| Overpass API | Points of interest | Online fallback only | [wiki.osmfoundation.org/wiki/Privacy_Policy](https://wiki.osmfoundation.org/wiki/Privacy_Policy) |
-| Open-Meteo | Weather forecast | When weather is active | [open-meteo.com/en/terms](https://open-meteo.com/en/terms) |
-| BRouter | Bicycle route calculation | Fully on-device, no data sent | — |
+| OpenFreeMap | Map tile rendering | Always (online mode) | https://openfreemap.org/privacy/ |
+| Photon (Komoot) | Address search & geocoding | Online fallback only | https://www.komoot.com/privacy |
+| Overpass API | Points of interest | Online fallback only | https://wiki.osmfoundation.org/wiki/Privacy_Policy |
+| Open-Meteo | Weather forecast | When weather feature is active | https://open-meteo.com/en/terms |
+| BRouter | Bicycle route calculation | Fully on-device, no data transmitted | — |
 
-Route calculation is performed entirely on your device using BRouter — no routing server ever receives your start point, destination, or planned route.
+Route calculation is performed entirely on-device using BRouter. No routing server receives your start point, destination, or planned route.
+
+---
 
 ## 5. Android Permissions
-| Permission | Reason |
+| Permission | Purpose |
 |-----------|--------|
 | `ACCESS_FINE_LOCATION` | GPS navigation and route tracking |
 | `FOREGROUND_SERVICE` | Background GPS tracking during rides |
-| `INTERNET` | Maps, address search, weather |
-| `WAKE_LOCK` | Keep screen on during navigation |
+| `INTERNET` | Map tiles, address search, weather data |
+| `WAKE_LOCK` | Keep screen active during navigation |
+
+---
 
 ## 6. GDPR (EU/EEA Users)
-FreeBike GPS is subject to the General Data Protection Regulation (GDPR). Because the app does not collect, store, or process personal data on behalf of users, there is generally no personal data available for access, correction, export, or deletion requests. If you have any questions regarding your rights under GDPR, you can contact us at the address below.
+FreeBike GPS is subject to the General Data Protection Regulation (GDPR). As the application does not collect, store, or process personal data on its own systems, there is generally no personal data available for access, correction, export, or deletion requests. If you have questions regarding your rights under GDPR, you may contact us using the details below.
+
+---
 
 ## 7. Children's Privacy
-The app does not collect any data from any user, regardless of age.
+FreeBike GPS does not knowingly collect any data from users, regardless of age.
+
+---
 
 ## 8. Changes to This Policy
-Any updates will be published on this page with a revised date.
+Any updates to this Privacy Policy will be published on this page with an updated revision date.
+
+---
 
 ## 9. Contact
 **App:** FreeBike GPS  
 **Developer:** Andrzej Tekieli  
 **Email:** hellofreebikegps@gmail.com  
-**Location:** Netherlands
+**Location:** The Netherlands  
